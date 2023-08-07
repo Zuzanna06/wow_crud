@@ -1,0 +1,116 @@
+.logo {
+
+  margin: auto;
+  width: auto;
+  border-radius: px;
+  padding: 5px 0;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.307);
+  //background: url(../../client/src/assets/img/logo.jpg) center/cover;
+
+  // img {
+  //   height: px;
+  // }
+  h3 {
+    margin-left: 10px;
+    color: azure;
+  }
+}
+
+
+.App {
+    height: 100vh;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  
+    .addHome {
+      padding: 15px;
+      margin-top: 20px;
+      cursor: pointer;
+      border: none;
+      background-color: rgb(251, 140, 36);
+      color: white;
+      font-weight: bold;
+    }
+  
+    h1 {
+      margin-bottom: 50px;
+    }
+  
+    h4 {
+      margin-bottom: 20px;
+      color: rgb(92, 85, 21);
+    }
+  
+    .arts {
+      display: flex;
+  
+      .art {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+  
+        img {
+          width: 200px;
+          height: 200px;
+        }
+  
+        button {
+          padding: 3px 6px;
+          background-color: white;
+          cursor: pointer;
+        }
+        .delete {
+          border: none;
+        padding: 10px;
+        background-color: white;
+        background-color: rgb(195, 56, 56);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        
+        }
+        .update {
+        border: none;
+        padding: 10px;
+        background-color: white;
+        background-color: rgb(32, 69, 46);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        }
+      }
+    }
+  
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+      input {
+        width: 250px;
+        padding: 10px;
+        border: 1px solid gray;
+      }
+  
+      textarea {
+        padding: 10px;
+      }
+  
+      button {
+        border: none;
+        padding: 8px;
+        background-color: white;
+        background-color: rgb(251, 140, 36);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+     
+      }
+    }
+  }
